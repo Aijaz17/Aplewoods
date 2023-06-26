@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width:900px) {
+
+    section .about
+    {
+        grid-template-columns: 1fr;
+        grid-gap:20px;
+    }
+    
+}
+
+@media (max-width:768px) {
+
+    section .blogs
+    {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-gap: 20px;
+    }
+  
+}
+
+@media (max-width:992px) {
+
+    footer .mainfoot
+    {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+  
+}
+@media (max-width:768px) {
+
+    footer .mainfoot
+    {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap: 20px;
+    }
+    
+    .areacount::before {
+      display: none;
+    }
+    .areacount::after {
+      display: none;
+    }
+    
+    .servicecard::before {
+        display: none;
+    }
+    .servicecard::after {
+        display: none;
+    }
+
+
+    .faq-container {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .question .fa-sharp {
+        position: relative;
+        left: 50%;
+    }
+
+    .about .left h2 {
+        max-width: 80%;
+        line-height: 2.5rem;
+    }
+
+
+
+  
+}
+
+@media (max-width:500px) {
+
+    footer .mainfoot
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+       
+    }
+
+    .question .fa-sharp {
+        position: relative;
+        left: 30%;
+    }
+    .about .left h2 {
+        max-width: 100%;
+        line-height: 2.5rem;
+    }
+
+
+}
+
+@media (max-width:400px) {
+
+    .question .fa-sharp {
+        position: relative;
+        left: 10%;
+    }
+
+
+   
+   
+}
+
+

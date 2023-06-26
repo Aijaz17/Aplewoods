@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+#contact 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/contact.png');
+    filter: brightness(75%) saturate(150%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: -50px;
+
+}
+#contact .contactus 
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+
+}
+
+#map
+{
+    margin-top: -60px;
+
+}
+
+section .googlemap
+{
+    margin-top: 30px;
+    
+}
+
+section .googlemap img
+{
+    width: 100%;
+}
+
+.contactformm
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.right .inputss .inp
+{
+    display:flex;
+    justify-content: space-between;
+    color: black ;
+    font-weight: bold;
+    width: 100%;
+}
+.innerinp
+{
+    width: 50%;
+    padding-left: 20px;
+}
+.innerinp input[type=text]
+{
+    width:100%;
+    padding: 14px;
+    background-color: #f2f2f2;
+    border: 1px  solid #f2f2f2;
+    outline: none;
+
+}
+
+
+
+.innerinp label , input[type=text]
+{
+    margin: 8px 0px;
+}
+.innerinp label
+{
+    display: block;
+    font-weight: bold;
+}
+
+#subject
+{
+    width: 100%;
+
+}
+
+
+textarea
+{
+    width:100%;
+    height: 60px;
+    resize: none;
+    padding: 10px;
+    background-color: #f2f2f2;
+
+}
+
+#sendBtn
+{
+    padding: 10px 14px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 20px;
+}
+
+#map .contactformm .address
+{
+    margin-bottom: 30px;
+}
+#map .contactformm  p
+{
+    margin-top:15px;
+}
+
+#map .contactformm .phonenumber
+{
+    margin-bottom: 30px;
+}
+
+
+@media (max-width:768px) {
+
+    
+    .contactformm
+        {
+            display: grid;
+            grid-template-columns:1fr;
+            grid-gap: 20px;
+            
+        }
+        .contactformm .left
+        {
+            padding-left: 4%;
+        }
+
+      
+
+    }
